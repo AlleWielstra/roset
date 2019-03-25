@@ -1,13 +1,84 @@
 import React, { Component } from "react";
-
+import { Container, Row, Col} from "reactstrap";
+import roset from './static/contact/deroset.png';
 class Contact extends Component {
     render() {
         return (
-            <div>
-                <h2>GOT QUESTIONS?</h2>
-                <p>The easiest thing to do is post on
-                    our <a href="http://forum.kirupa.com">forums</a>.
-                </p>
+            <div className="contact-page">
+                <Container>
+                    <Row>
+                        <Col><div className="contact-container contact-title">Contact</div></Col>
+                    </Row>
+                    <Row>
+                        <Col><div className="contact-container"><img className="elip" src={roset} /></div></Col>
+                        <Col>
+                            <div className="contact-container">
+                            <table>
+                                <tr>
+                                    <td>Dag</td>
+                                    <td>Openingstijden</td>
+                                </tr>
+                                <tr>
+                                    <td>Maandag</td>
+                                    <td>9:00 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dinsdag</td>
+                                    <td>8:30 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Woensdag</td>
+                                    <td>8:30 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Donderdag</td>
+                                    <td>8:30 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Vrijdag</td>
+                                    <td>8:30 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Zaterdag</td>
+                                    <td>8:00 - 22:00 *</td>
+                                </tr>
+                                <tr>
+                                    <td>Zondag</td>
+                                    <td>12:00 - 22:00 **</td>
+                                </tr>
+                            </table>
+                                * Heerhugowaard geopend tot 24:00<br/>
+                                ** Castricum geopend tot 23:00
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <div className="contact-container">
+                                Burgemeester Mooijstraat 17<br/>
+                                1901 EP, Castricum<br/>
+                                T 0251 - 652 386<br/>
+                                info@deroset.nl
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className="contact-container">
+                                Geesterduinweg 39<br/>
+                                1902 EJ, Castricum<br/>
+                                T 0251 - 654683<br/>
+                                info@deroset.nl
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className="contact-container">
+                                Middenwaard 44<br/>
+                                1703 SH, Heerhugowaard<br/>
+                                T 072 - 7370105<br/>
+                                info@deroset.nl
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }

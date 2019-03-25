@@ -16,7 +16,7 @@ class Main extends Component {
                     <ul className="header">
                         <li className="store-name">De Roset</li>
                         <li><NavLink exact to="/">Home</NavLink></li>
-                        <li><NavLink to="/ijs">Ijs</NavLink></li>
+                        <li><NavLink to="/ijs">Soorten ijs</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <div className="content">

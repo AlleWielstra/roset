@@ -1,5 +1,6 @@
 $bannerColor: #AA8888;
 $textSpicy: #B6FF98;
+$imageHeight: 300px;
 
 body {
     background-color: #EEF0FF;
@@ -10,6 +11,7 @@ h1, h2, p, ul, li {
     font-family: 'Indie Flower', sans-serif;
 
 }
+
 ul.header li {
     margin-top: auto;
     margin-bottom: auto;
@@ -46,7 +48,8 @@ ul.header li a {
     font-family: 'Indie Flower', sans-serif;
 }
 .active {
-    background-color: #0099FF;
+    background-color: #E7E7E7;
+    color: #FF1212 !important;
 }
 .store-name {
     vertical-align: middle;
@@ -75,6 +78,7 @@ ul.footer {
     background-color: #fff;
     border-radius: 2px;
     border: 1px solid #e0e0e0 ;
+    margin: 5px;
 }
 .card .card-header {
     background-color: #F5F5F5;
@@ -85,4 +89,65 @@ ul.footer {
 }
 .card .card-content {
     padding: 5px;
+}
+.image_1 {
+    background-image: url('./static/ijsimages/carousel/blanco.jpg');
+    background-size: cover;
+    height: $imageHeight;
+    vertical-align: middle;
+
+}
+.image_2 {
+    background-image: url('./static/ijsimages/carousel/Roomijs_Appeltaart.jpg');
+    background-size: cover;
+    height: $imageHeight;
+    vertical-align: middle;
+
+}
+.image_3 {
+    background-image: url('./static/ijsimages/carousel/Roomijs_Belgian_Chocolate.jpg');
+    background-size: cover;
+    height: $imageHeight;
+    vertical-align: middle;
+
+}
+.image_4 {
+    background-image: url('./static/ijsimages/carousel/Roomijs_Maple_Walnoot.jpg');
+    background-size: cover;
+    height: $imageHeight;
+    vertical-align: middle;
+
+}
+.carousel-h-text {
+    font-size: 2em;
+    color:#893838;
+    text-align: center;
+    text-shadow: 1px 0px #510d0d;
+
+}
+.carousel-b-text {
+    vertical-align: middle;
+    font-size: 2em;
+    color: #4CE032;
+    text-align: center;
+    text-shadow: 2px 0px #004d40;
+}
+.contact-container {
+    background-color: #79972A;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 10px;
+    color: #fff;
+}
+.contact-page {
+    margin: -20px;
+    background-color: #99BF35;
+}
+.contact-title {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+.elip {
+    border-radius: 50%;
 }

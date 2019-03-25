@@ -1,0 +1,26 @@
+Dag	Openingstijden
+Maandag	9:00 - 22:00
+Dinsdag	8:30 - 22:00
+Woensdag	8:30 - 22:00
+Donderdag	8:30 - 22:00
+Vrijdag	8:30 - 22:00
+Zaterdag	8:00 - 22:00 *
+Zondag	12:00 - 22:00 **
+* Heerhugowaard geopend tot 24:00
+** Castricum geopend tot 23:00
+
+
+Burgemeester Mooijstraat 17
+1901 EP, Castricum
+T 0251 - 652 386
+info@deroset.nl
+
+Geesterduinweg 39
+1902 EJ, Castricum
+T 0251 - 654683
+info@deroset.nl
+
+Middenwaard 44
+1703 SH, Heerhugowaard
+T 072 - 7370105
+info@deroset.nl
