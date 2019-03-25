@@ -1,0 +1,88 @@
+$bannerColor: #AA8888;
+$textSpicy: #B6FF98;
+
+body {
+    background-color: #EEF0FF;
+    margin: 0;
+    font-family: 'Indie Flower', sans-serif
+}
+h1, h2, p, ul, li {
+    font-family: 'Indie Flower', sans-serif;
+
+}
+ul.header li {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    font-family: 'Indie Flower', sans-serif
+}
+ul.header {
+    background-color: $bannerColor;
+    padding: 0;
+    margin: 0;
+}
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+.content {
+    font-family: 'Indie Flower', sans-serif;
+    background-color: #FFF2F2;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.content h2 {
+    font-family: 'Indie Flower', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.content li {
+    font-family: 'Indie Flower', sans-serif;
+}
+.active {
+    background-color: #0099FF;
+}
+.store-name {
+    vertical-align: middle;
+    font-size: 2rem;
+    color: $textSpicy;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul.footer li {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Indie Flower', sans-serif;
+    width:100%;
+}
+ul.footer {
+    bottom: 0;
+    background-color: $bannerColor;
+    padding: 15px;
+    margin: 0;
+    color: $textSpicy;
+}
+.card {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0 ;
+}
+.card .card-header {
+    background-color: #F5F5F5;
+    color:#C00606;
+    padding: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.card .card-content {
+    padding: 5px;
+}
