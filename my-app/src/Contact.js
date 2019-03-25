@@ -9,14 +9,14 @@ class Contact extends Component {
                     <Row>
                         <Col><div className="contact-container contact-title">Contact</div></Col>
                     </Row>
-                    <Row>
-                        <Col><div className="contact-container"><img className="elip" src={roset} /></div></Col>
-                        <Col>
+                    <Row className="row-eq-height">
+                        <Col sm="12" md="8"><div className="contact-container"><img className="elip responsive-img" src={roset} /></div></Col>
+                        <Col sm="12" md="4">
                             <div className="contact-container">
                             <table>
-                                <tr>
-                                    <td>Dag</td>
-                                    <td>Openingstijden</td>
+                                <tr className='tablehead'>
+                                    <th>Dag</th>
+                                    <th>Openingstijden</th>
                                 </tr>
                                 <tr>
                                     <td>Maandag</td>

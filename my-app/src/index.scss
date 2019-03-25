@@ -39,6 +39,16 @@ ul.header li a {
     margin-left: 80px;
     margin-right: 80px;
 }
+@media (max-width: 480px) {
+    .content {
+        font-family: 'Indie Flower', sans-serif;
+        background-color: #FFF2F2;
+        padding: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .content h2 {
     font-family: 'Indie Flower', sans-serif;
     padding: 0;
@@ -58,22 +68,7 @@ ul.header li a {
     margin-left: 10px;
     margin-right: 10px;
 }
-ul.footer li {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    display: inline-block;
-    list-style-type: none;
-    font-family: 'Indie Flower', sans-serif;
-    width:100%;
-}
-ul.footer {
-    bottom: 0;
-    background-color: $bannerColor;
-    padding: 15px;
-    margin: 0;
-    color: $textSpicy;
-}
+
 .card {
     background-color: #fff;
     border-radius: 2px;
@@ -86,6 +81,16 @@ ul.footer {
     padding: 5px;
     border-bottom: 1px solid #e0e0e0;
     text-align: center;
+}
+.card .card-footer {
+    background-color: #F5F5F5;
+    color:#C00606;
+    padding: 5px;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+.black-text {
+    color: #000 !important;
 }
 .card .card-content {
     padding: 5px;
@@ -133,6 +138,7 @@ ul.footer {
     text-shadow: 2px 0px #004d40;
 }
 .contact-container {
+    margin: 10px;
     background-color: #79972A;
     border: 1px solid #fff;
     border-radius: 2px;
@@ -150,4 +156,89 @@ ul.footer {
 }
 .elip {
     border-radius: 50%;
+}
+.tablehead {
+    border-bottom: 2px solid #fff;
+}
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+table {
+    table-layout:fixed;
+    width: 100%;
+}
+@media only screen and (min-width : 768px) {
+    .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-row.row:after,
+    .flex-row.row:before {
+        display: flex;
+    }
+}
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+.stripped {
+    background-color: $bannerColor !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.normalize-text {
+    color: 	#000000	!important;
+}
+.normalize-text.active {
+    background-color: white;
+}
+.roomijs-page {
+    margin: -20px;
+    background-color: #DEB887;
+}
+.sorbetijs-page {
+    margin: -20px;
+    background-color: #5AD5E2;
+}
+.about-page {
+    background-color: #888D78;
+    margin: -20px;
+}
+.card-about {
+    background-color: #A0A494;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0 ;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
+.card-about .card-header {
+    background-color: #fff;
+    color:#575757;
+    padding: 5px;
+    margin: -5px -5px 0 -5px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+ul.footer li {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Indie Flower', sans-serif;
+    width:100%;
+}
+ul.footer {
+    width: 100%;
+    margin: auto;
+    background-color: $bannerColor;
+    padding: 15px;
+    color: $textSpicy;
 }

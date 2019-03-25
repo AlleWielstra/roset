@@ -34,7 +34,7 @@ class Home extends Component {
                                 Walnoten ijs
                             </div>
                             <div className="card-content">
-                                <img src={walnoot} />
+                                <img className="responsive-img" src={walnoot} />
                             </div>
                         </div>
                     </Col>
@@ -44,7 +44,7 @@ class Home extends Component {
                                 Hazelnoten ijs
                             </div>
                             <div className="card-content">
-                                <img src={hazel} />
+                                <img className="responsive-img" src={hazel} />
                             </div>
                         </div>
                     </Col>
@@ -54,7 +54,7 @@ class Home extends Component {
                                 Cashewnoten ijs
                             </div>
                             <div className="card-content">
-                                <img src={cash} />
+                                <img className="responsive-img" src={cash} />
                             </div>
                         </div>
                     </Col>
