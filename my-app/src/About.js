@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col} from "reactstrap";
 class About extends Component {
     render() {
+        document.title = 'Roset - Over ons';
         return (
             <div className="about-page">
                 <Container>

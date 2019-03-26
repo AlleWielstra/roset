@@ -9,6 +9,7 @@ import walnoot from './static/ijsimages/home/walnoot-in-schil.jpg';
 
 class Home extends Component {
     render() {
+        document.title = 'Roset - Home';
         return (
             <Container>
                 <Row>

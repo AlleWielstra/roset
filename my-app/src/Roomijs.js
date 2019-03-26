@@ -10,6 +10,7 @@ import amarena from './static/ijsimages/roomijs/Roomijs_Vanille_Amarene.jpg';
 
 class Roomijs extends Component {
     render() {
+        document.title = 'Roset - Room ijs';
         return (
             <div className="roomijs-page">
                 <Container>

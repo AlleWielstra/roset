@@ -3,6 +3,7 @@ import { Container, Row, Col} from "reactstrap";
 import roset from './static/contact/deroset.png';
 class Contact extends Component {
     render() {
+        document.title = 'Roset - Contact';
         return (
             <div className="contact-page">
                 <Container>

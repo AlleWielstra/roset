@@ -9,6 +9,7 @@ import passie from "./static/ijsimages/sorbetijs/Sorbetijs_Passie_Mango.jpg"
 
 class Sorbetijs extends Component {
     render() {
+        document.title = 'Roset - Sorbet ijs';
         return (
             <div className="sorbetijs-page">
                 <Container>
