@@ -6,11 +6,11 @@ import {
 } from "react-router-dom";
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Home from "./Home";
-import Ijs from "./Ijs";
 import Contact from "./Contact";
 import Roomijs from "./Roomijs";
 import Sorbetijs from "./Sorbetijs";
 import About from "./About";
+import NavbarToggle from "./NavbarToggle";
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -19,8 +19,18 @@ class Main extends Component {
         this.state = {
             dropdownOpen: false
         };
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.state = {
+            collapsed: true
+        };
     }
 
+
+    toggleNavbar() {
+    this.setState({
+        collapsed: !this.state.collapsed
+    });
+    }
     toggle() {
         this.setState({
             dropdownOpen: !this.state.dropdownOpen
@@ -47,6 +57,7 @@ class Main extends Component {
                         <li><NavLink to="/about">over ons</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
+                    <NavbarToggle/>
                     <div className="content">
                         <Route exact path="/" component={Home}/>
                         <Route path="/Sorbetijs" component={Sorbetijs}/>
@@ -54,6 +65,7 @@ class Main extends Component {
                         <Route path="/about" component={About}/>
                         <Route path="/contact" component={Contact}/>
                     </div>
+
                     <ul className="footer">
                         <li>De Roset voor premium ijs</li>
                     </ul>

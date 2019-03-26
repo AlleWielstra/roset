@@ -10,42 +10,46 @@ class Contact extends Component {
                         <Col><div className="contact-container contact-title">Contact</div></Col>
                     </Row>
                     <Row className="row-eq-height">
-                        <Col sm="12" md="8"><div className="contact-container"><img className="elip responsive-img" src={roset} /></div></Col>
+                        <Col sm="12" md="8"><div className="contact-container"><img className="elip responsive-img" alt="foto van de roset" src={roset} /></div></Col>
                         <Col sm="12" md="4">
                             <div className="contact-container">
                             <table>
-                                <tr className='tablehead'>
-                                    <th>Dag</th>
-                                    <th>Openingstijden</th>
-                                </tr>
-                                <tr>
-                                    <td>Maandag</td>
-                                    <td>9:00 - 22:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Dinsdag</td>
-                                    <td>8:30 - 22:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Woensdag</td>
-                                    <td>8:30 - 22:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Donderdag</td>
-                                    <td>8:30 - 22:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Vrijdag</td>
-                                    <td>8:30 - 22:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Zaterdag</td>
-                                    <td>8:00 - 22:00 *</td>
-                                </tr>
-                                <tr>
-                                    <td>Zondag</td>
-                                    <td>12:00 - 22:00 **</td>
-                                </tr>
+                                <thead>
+                                    <tr className='tablehead'>
+                                        <th>Dag</th>
+                                        <th>Openingstijden</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Maandag</td>
+                                        <td>9:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dinsdag</td>
+                                        <td>8:30 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Woensdag</td>
+                                        <td>8:30 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Donderdag</td>
+                                        <td>8:30 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vrijdag</td>
+                                        <td>8:30 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zaterdag</td>
+                                        <td>8:00 - 22:00 *</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zondag</td>
+                                        <td>12:00 - 22:00 **</td>
+                                    </tr>
+                                </tbody>
                             </table>
                                 * Heerhugowaard geopend tot 24:00<br/>
                                 ** Castricum geopend tot 23:00

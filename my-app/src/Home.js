@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <Container>
                 <Row>
-                    <Col>
+                    <Col sm="12" md="12">
                         <div className="card">
                             <div className="card-header">
                                 specialiteiten deze week
@@ -28,33 +28,33 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col sm="12" md="4">
                         <div className="card">
                             <div className="card-header">
                                 Walnoten ijs
                             </div>
                             <div className="card-content">
-                                <img className="responsive-img" src={walnoot} />
+                                <img className="responsive-img" alt="walnoten" src={walnoot} />
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col sm="12" md="4">
                         <div className="card">
                             <div className="card-header">
                                 Hazelnoten ijs
                             </div>
                             <div className="card-content">
-                                <img className="responsive-img" src={hazel} />
+                                <img className="responsive-img" alt="hazelnoten" src={hazel} />
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col sm="12" md="4">
                         <div className="card">
                             <div className="card-header">
                                 Cashewnoten ijs
                             </div>
                             <div className="card-content">
-                                <img className="responsive-img" src={cash} />
+                                <img className="responsive-img" alt="cashew noten" src={cash} />
                             </div>
                         </div>
                     </Col>

@@ -13,62 +13,60 @@ class Sorbetijs extends Component {
             <div className="sorbetijs-page">
                 <Container>
                     <Row>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={aardbei} />
+                                    <img className="responsive-img" alt="Sorbetijs aardbei" src={aardbei} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs aardbei
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={citroen} />
+                                    <img className="responsive-img" alt="Sorbetijs citroen limoen" src={citroen} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs citroen limoen
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={framboos} />
+                                    <img className="responsive-img" alt="Sorbetijs framboos" src={framboos} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs framboos
                                 </div>
                             </div>
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={mango} />
+                                    <img className="responsive-img" alt="Sorbetijs mango" src={mango} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs mango
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={meloen} />
+                                    <img className="responsive-img" alt="Sorbetijs meloen" src={meloen} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs meloen
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col xs="6" sm="6" md="4">
                             <div className="card">
                                 <div className="card-content">
-                                    <img className="responsive-img" src={passie} />
+                                    <img className="responsive-img" alt="Sorbetijs passie mango" src={passie} />
                                 </div>
                                 <div className="card-footer black-text">
                                     Sorbetijs passie mango

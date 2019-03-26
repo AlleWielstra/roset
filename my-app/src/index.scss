@@ -39,13 +39,44 @@ ul.header li a {
     margin-left: 80px;
     margin-right: 80px;
 }
-@media (max-width: 480px) {
+.mobile-nav {
+    background-color: $bannerColor;
+    display: none !important;
+}
+@media (max-width: 425px) {
+    .header {
+        display: none !important;
+    }
+    .mobile-nav {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 768px) {
     .content {
         font-family: 'Indie Flower', sans-serif;
         background-color: #FFF2F2;
         padding: 10px;
         margin-left: 0;
         margin-right: 0;
+    }
+    .roomijs-page {
+        margin: -10px !important;
+    }
+    .sorbetijs-page {
+        margin: -10px !important;
+    }
+    .about-page {
+        margin: -10px !important;
+    }
+    .contact-page {
+        margin: -10px !important;
+    }
+    .card {
+        padding: 0px;
+    }
+    .card .card-content {
+        padding: 0px;
     }
 }
 
@@ -62,9 +93,10 @@ ul.header li a {
     color: #FF1212 !important;
 }
 .store-name {
+    font-family: 'Indie Flower', sans-serif;
     vertical-align: middle;
-    font-size: 2rem;
-    color: $textSpicy;
+    font-size: 2rem !important;
+    color: $textSpicy !important;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -194,9 +226,19 @@ table {
 }
 .normalize-text {
     color: 	#000000	!important;
+
+}
+.normalize-text-nav {
+    color: 	#FFF	!important;
+
 }
 .normalize-text.active {
     background-color: white;
+}
+.normalize-text-nav.active {
+    color: #FF1212 !important;
+    background-color: $bannerColor;
+    text-decoration: none;
 }
 .roomijs-page {
     margin: -20px;
@@ -238,6 +280,7 @@ ul.footer li {
 ul.footer {
     width: 100%;
     margin: auto;
+    margin-top: 10px;
     background-color: $bannerColor;
     padding: 15px;
     color: $textSpicy;
